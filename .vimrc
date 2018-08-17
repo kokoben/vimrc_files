@@ -1,14 +1,15 @@
-set lines=40 columns=120
+set lines=60 columns=120
 set number
 set incsearch
 set history=50
 set backspace=indent,eol,start
 set shortmess+=I
-set guifont=Dejavu\ Sans\ Mono\ 11
-"set guifont=Consolas\ 11
+set guifont=Menlo\ Regular:h14
 syntax enable
 set background=dark
-colorscheme dracula
+set termguicolors
+let ayucolor="mirage"
+colorscheme ayu
 set nobackup
 set nowritebackup
 set noswapfile
@@ -64,4 +65,3 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 let g:syntastic_javascript_checkers=['eslint']
-

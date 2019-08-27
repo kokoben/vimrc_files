@@ -25,6 +25,7 @@ set guioptions-=r
 set guioptions-=L
 set splitright
 set splitbelow
+set nowrap
 
 execute pathogen#infect()
 filetype plugin indent on
